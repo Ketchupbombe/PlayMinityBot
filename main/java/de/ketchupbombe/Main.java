@@ -57,6 +57,7 @@ public class Main {
         CommandManager.registerCommand("unmute", new UnmuteCommand(), 75);
         CommandManager.registerCommand("lines", new LinesCommand(), 50);
         CommandManager.registerCommand("changelog", new ChangelogCommand(), 0);
+        CommandManager.registerCommand("developer", new DeveloperCommand(), 75);
 
         //This is for ex. for ".hentai"
         for (ImageCategory category : ImageCategory.values()) {
