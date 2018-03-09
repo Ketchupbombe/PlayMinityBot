@@ -22,5 +22,6 @@ public class Constants {
     public static final long TEXT_NSFW_ID = 413966897437212673L;
     public static final long TEXT_WELL_KNOWN_ID = 415758438895714315L;
 
+    public static boolean DEVELOPER_MODE = false;
 
 }
